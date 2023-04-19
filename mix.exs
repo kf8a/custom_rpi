@@ -1,8 +1,8 @@
-defmodule NervesSystemRpi.MixProject do
+defmodule CustomRpi.MixProject do
   use Mix.Project
 
-  @github_organization "nerves-project"
-  @app :nerves_system_rpi
+  @github_organization "kf8a"
+  @app :custom_rpi
   @version Path.join(__DIR__, "VERSION")
            |> File.read!()
            |> String.trim()
